@@ -1,0 +1,11 @@
+#copyBtn:hover{
+background-color: rgb(32, 98, 239);   
+}
+#copyBtn{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+input[placeholder="Password"]{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}

@@ -40,7 +40,7 @@ function App() {
   //for that we use useEffect(()={},[dependencies])  to call the passwordGenerator() and rerun it whenever any dependency from array changes
   useEffect(()=>passwordGenerator(),[length,numberAllowed,charAllowed,passwordGenerator])
 
-  //both arrays from useCallback and useEffect are different bcz one is used for caching and one is used for rerendering on change.
+  //both dependency arrays from useCallback and useEffect are different bcz one is used for caching and one is used for rerendering on change.
 
   return (
     <>
